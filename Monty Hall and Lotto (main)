@@ -1,0 +1,31 @@
+
+## The Monty Hall Problem
+
+
+Named after the host of game show *Let’s Make a Deal*, the Monty Hall Problem is based on the exact show. In *Let’s Make a Deal*, there are three doors. Behind one of the doors is a new car while behind the other two doors is a zonk (something that people don’t normally want like an ostrich or a donkey). The contestant picks one door and the host will reveal what is behind one of the other two doors. No matter what the contestant picks, the host will open a door that is both a door that wasn’t picked and a door that had a zonk behind it. The contestant is then given an option to switch doors.
+
+
+<img src="https://brilliant-staff-media.s3-us-west-2.amazonaws.com/tiffany-wang/gWotbuEdYC.png">
+
+Image source: <https://brilliant.org/wiki/monty-hall-problem/>
+
+
+  Because there are two doors left, an assumption that can be made is that each door has a 50/50 chance of having a car behind it. In reality, that is not the case under the circumstances of the choice. When there were three doors, there is a 1/3 chance of the car being behind the chosen door and a 2/3 chance of the car being behind one of the other two doors. Of the two other doors, the host will always open a door with a zonk behind it whether or not one of the two other doors had a car. After the host opens one of the doors, the 2/3 chance is then only accounting for the one remaining door. In this scenario, the other door has a higher chance of having a car than the currently chosen door.
+
+  In this scenario, the contestant has a higher chance of getting the new car if they switch. This strategy is not fool-proof since the 1/3 chance of the car being behind the initially chosen car is not impossible, but switching makes it more probable to win it.
+        	
+  The problem carries over when there are more doors and the host opens all the doors save for the chosen door and one other unchosen door. If there are 50 doors, the host will open 48. If there are 100 doors, the host will open 98. If there are 1000 doors, the host will open 998.
+
+
+* * *
+
+## Ultra Lotto 6/58 (What is the net gain/loss if one buys a ticket for every possible combination?)
+
+
+<img src="https://media.philstar.com/images/articles/lotto_2018-10-03_20-51-32.jpg">
+
+Image source: <https://www.philstar.com/nation/2018/10/03/1856994/658-lotto-jackpot-soars-p885-million>
+
+
+In *Ultra Lotto 6/58*, a bettor pays Php 20 for one ticket. One ticket will have a combination of 6 numbers ranging from 1 to 58 (in any order) for a chance to win Php 50 million. There are a total of 40,475,358 possible combinations and only one grants the prize money. If someone were to buy one ticket for each possible combination, they would have to pay Php 809,507,160. That would guarantee a 100% chance of winning the prize money … **and also a loss of Php 759,507,160 (and with tax on top of that)!**
+

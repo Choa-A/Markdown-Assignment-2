@@ -27,5 +27,14 @@ Image source: <https://brilliant.org/wiki/monty-hall-problem/>
 Image source: <https://www.philstar.com/nation/2018/10/03/1856994/658-lotto-jackpot-soars-p885-million>
 
 
-In *Ultra Lotto 6/58*, a bettor pays Php 20 for one ticket. One ticket will have a combination of 6 numbers ranging from 1 to 58 (in any order) for a chance to win Php 50 million. There are a total of 40,475,358 possible combinations and only one grants the prize money. If someone were to buy one ticket for each possible combination, they would have to pay Php 809,507,160. That would guarantee a 100% chance of winning the prize money … **and also a loss of Php 759,507,160 (and with tax on top of that)!**
+In *Ultra Lotto 6/58*, a bettor pays Php 20 for one ticket. One ticket will have a combination of 6 numbers ranging from 1 to 58 (in any order) for a chance to win Php 50 million. There are a total of 40,475,358 possible combinations and only one grants the prize money.This can be computed using the combination formula: 
+$$
+nCr = \frac{n!}{r!(n-r)!}
+$$
+
+$$
+50C6 = \frac{50!}{6!(50-6)!} = 40,475,358
+$$
+If someone were to buy one ticket for each possible combination, they would have to pay Php 809,507,160. That would guarantee a 100% chance of winning the prize money … **and also a loss of Php 759,507,160 (and with tax on top of that)!**
+
 
